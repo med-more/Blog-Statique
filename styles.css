@@ -25,23 +25,20 @@ h1 h2 h3 h4 h5 h6{
     font-family: 'Playfair Display', serif;
     margin-bottom: 1rem;
 }
-h1{
-    font-size: 2.5rem;
-    color: var(--secondary-color);
-}
 h2{
     font-size: 2rem;
     color: var(--primary-color);
 }
 /* main content */
 main{
-    padding: 2rem 0;
+    padding: 4rem 0;
 }
 /* cards in homepage */
 .theme-card{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 2rem;
+    margin-top: 2rem;
 }
 @media (min-width: 1024px){
     .theme-card{
@@ -183,3 +180,37 @@ footer{
 footer p{
     margin: 0;
 }
+/* blog detaille */
+.blog-detaille{
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.description {
+    max-width: 800px;
+    margin: 2rem auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: var(--text-color);
+    padding: 0 1rem;
+    text-align: center; 
+}
+.img-container {
+    background-size: cover;
+    background-position: center;
+    height: 400px; 
+    width: 1000px; 
+    margin: 0 auto; 
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    overflow: hidden; 
+}
+.blog-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px; 
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 32px; 
+}
+
